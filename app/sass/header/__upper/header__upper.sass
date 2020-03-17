@@ -1,8 +1,8 @@
 .header__upper
-	position: absolute
+	position: relative
 	height: 80px
 	width: 100%
-	border-bottom: 1px solid #E1E1E1
+	border-bottom: 1px solid $light-gray
 
 	&::before 
 		content: ''
@@ -11,7 +11,8 @@
 		left: 0
 		right: 0
 		bottom: 0
-		background-color: rgba(#021A2A,0.5) 
+		background-color: rgba($dark-blue, 0.5) 
 		z-index: 1
 		
-@import '../__logo/header__logo.sass'
+@import 'logo/logo.sass'
+@import 'menu/menu.sass'

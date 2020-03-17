@@ -2,13 +2,12 @@
 <html lang="ru">
 
 <head>
-	<script src="https://kit.fontawesome.com/52a3eb3482.js" crossorigin="anonymous"></script>
 	<meta charset="utf-8">
 	<title>Билеты на автобус - купить онлайн</title>
 	<meta name="description" content="Startup HTML template OptimizedHTML 5">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="images/favicon.png">
-  <!-- <meta property="og:image" content="imgages/dest/preview.jpg"> -->
+	<!-- <meta property="og:image" content="imgages/dest/preview.jpg"> -->
 	<link rel="stylesheet" href="css/app.min.css">
 </head>
 
@@ -18,20 +17,44 @@
 
 		<div class="header__upper">
 
-			<a href="#" class="header__logo">
+<!-- 			<a href="" class="header__logo">
 				<img class="header__logo_img" src="images/dest/logo-1.png" alt="Билеты"></img>
-			</a>
+			</a> -->
 
-			<ul class="menu">
-				<li class="menu__item"><a class="menu__contacts" href="">Наши контакты</a></li>
-				<li class="menu__item"><a class="menu__language" href="">RU<i class="fas fa-caret-down"></i></a></li>
-				<li class="menu__item"><a class="button button_type_sign-in" href="">Войти</a></li>
-				<li class="menu__item"><a class="button button_type_sign-up" href="">Регистрация</a></li>
-			</ul>
+			<div class="header__logo logo">
+				<a href="" class="logo__link">
+					<img class="logo__img" src="images/dest/logo-1.png" alt="Tiket">
+				</a>
+			</div>
+
+			<div class="header__menu menu">	
+				<ul class="menu__list">
+
+					<li class="menu__item contacts"><a class="contacts__link dropdown" href="">Наши контакты</a>
+						<div class="dropdown__container">
+							<ul class="dropdown__list">
+							<li class = "dropdown__item"><span class="dropdown__pnone_vodafone">(056) 793-19-21</span></li>
+							<li class = "dropdown__item"><span class="dropdown__pnone_vodafone">(056) 793-38-21</span></li>
+							<li class = "dropdown__item"><a class = "dropdown__link" href="">contact@ticket.com.ua</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="menu__item languge"><a class="language__link" href="">RU<i class="language__fa fas fa-caret-down"></i></a></li>
+
+					<li class="menu__item"><a class="button button_type_sign-in" href="">Войти</a></li>
+
+					<li class="menu__item"><a class="button button_type_sign-up" href="">Регистрация</a></li>
+
+				</ul>
+			</div>
 		</div>
+
+		<div class="header__motto">Легко запомнить. Просто купить.</div>
 	</header>
-
+	
+	<script src="https://kit.fontawesome.com/52a3eb3482.js" crossorigin="anonymous"></script>
 	<script src="js/app.min.js"></script>
-
+	
 </body>
 </html>
