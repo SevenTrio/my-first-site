@@ -1,0 +1,23 @@
+{
+  "name": "First-Gulp-Project",
+  "description": "my first gulp project",
+  "main": "index.html",
+  "authors": [
+    "Seventrio"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SevenTrio/First-Gulp-Project",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sharps": "^3.0.3",
+    "jquery": "^3.4.1"
+  }
+}
