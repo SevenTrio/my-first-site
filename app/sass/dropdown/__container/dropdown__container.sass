@@ -1,15 +1,25 @@
 .dropdown__container
 	display: none
 	position: absolute
-	margin-top: 10px
+	left: 50%
+	margin-right: -50%
+	transform: translate(-50%, 0)
+	margin-top: 15px
 	background-color: rgba(#fff, 0.9)
 	border-radius: 5px
-	&:after
+	padding-top: 5px
+	padding-bottom: 5px
+	&:before
 		content: ''
 		position: absolute
-		left: 40px
-		top: -24px
+		top: 0px
+		left: 50%
+		margin-right: -50%
+		transform: translate(-50%, -100%)
 		width: 7px
 		height: 7px
 		border: 12px solid transparent
 		border-bottom: 12px solid rgba(#fff, 0.9)
+
+.dropdown__container_active
+	display: block
