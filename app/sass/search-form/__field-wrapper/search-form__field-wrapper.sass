@@ -1,0 +1,44 @@
+.search-form__field-wrapper
+	+col()
+	+size(3)
+	+size-md(12)
+	position: relative
+	z-index: 1
+	background-color: rgba(#fff, 0.8)
+	border: 1px solid $light-gray
+
+	+from($break_md+1px)
+		width: calc(25% - 5.333px)
+
+.search-form__field-wrapper_type_from
+	+from($break_md+1px)
+		border-radius: 5px 0 0 5px
+		border-right: 1px solid $gray
+		margin-right: 0px
+
+	+to($break_md)
+		border-radius: 5px 5px 0 0
+		border-bottom: 1px solid $gray
+
+
+.search-form__field-wrapper_type_to
+	+from($break_md+1px)
+		border-left: none
+		border-right: 1px solid $gray
+		margin-left: 0px
+		margin-right: 0px
+
+	+to($break_md)
+		border-top: none
+		border-bottom: 1px solid $gray
+
+.search-form__field-wrapper_type_date
+	+from($break_md+1px)
+		border-left: none
+		border-radius: 0 5px 5px 0
+		margin-left: 0px
+
+	+to($break_md)
+		border-top: none
+		border-bottom: 1px solid $gray
+		border-radius: 0 0 5px 5px

@@ -56,4 +56,21 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 	}
 
+	var reverseButton = document.getElementsByClassName('search-form__reverse-button')[0]
+	reverseButton.onclick = function(){
+		if(reverseButton.classList.contains('search-form__reverse-button_scale')){
+			reverseButton.classList.remove('search-form__reverse-button_scale')
+			reverseButton.classList.add('search-form__reverse-button_rotate')
+		} else {
+			reverseButton.classList.add('search-form__reverse-button_scale')
+			reverseButton.classList.remove('search-form__reverse-button_rotate')
+		};
+
+		var inputFrom = document.getElementById('from');
+		var temp = inputFrom.value;
+		var inputTo = document.getElementById('to');
+		inputFrom.value = inputTo.value;
+		inputTo.value = temp;
+	}
+
 });

@@ -1,31 +1,28 @@
 .button
 	display: inline-block
 	border: none
-	color: #fff
+	color: $light-gray
 	text-decoration: none
 	background-color: $accent
-	padding: 15px 45px
-	font-size: 13px
-	text-transform: uppercase
-	font-weight: 600
-	letter-spacing: 3px
-	border-radius: 2px
+	padding: 15px 25px
+	letter-spacing: 1px
+	border-radius: 5px
 	text-align: center
 	position: relative
 	outline: none
 	transition: background-color .1s ease
-	&::after
-		transition: background-color .2s ease
-		position: absolute
-		content: ''
-		height: 4px
-		bottom: 0
-		width: 100%
-		background-color: darken($accent, 50%)
-		opacity: .18
-		border-bottom-left-radius: 2px
-		border-bottom-right-radius: 2px
-		left: 0
+	// &::after
+	// 	transition: background-color .2s ease
+	// 	position: absolute
+	// 	content: ''
+	// 	height: 4px
+	// 	bottom: 0
+	// 	width: 100%
+	// 	background-color: darken($accent, 50%)
+	// 	opacity: .18
+	// 	border-bottom-left-radius: 2px
+	// 	border-bottom-right-radius: 2px
+	// 	left: 0
 	&:focus, &:hover
 		text-decoration: none
 		color: #fff

@@ -13,12 +13,11 @@
 </head>
 
 <body>
-
+	<!-- .grid>.grid__wrapper>.grid__container>(.grid__item)*12 -->
 	<header class="header">
 
 		<div class="header__upper header-upper">
 			<div class="header-upper__wrapper">
-
 				<div class="header-upper__logo logo">
 					<a href="" class="logo__link">
 						<img class="logo__img" src="images/dest/logo-1.png" alt="Tiket">
@@ -62,29 +61,30 @@
 					<h1 class="header-motto__text">Легко запомнить. Просто купить.</h1>
 				</div>
 			</div>
-			
+
+			<div class="header__search-form search-form">
+				<div class="search-form__field-wrapper search-form__field-wrapper_type_from">
+					<label for="from" class="search-form__label">Откуда</label>
+					<input class="search-form__field" id="from" value="Одесса" type="text">
+					<div class="search-form__reverse-button search-form__reverse-button_rotate"></div>
+				</div>
+				<div class="search-form__field-wrapper search-form__field-wrapper_type_to">
+					<label for="to" class="search-form__label">Куда</label>
+					<input class="search-form__field" id="to" value="Киев" type="text">
+				</div>
+				<div class="search-form__field-wrapper search-form__field-wrapper_type_date">
+					<label for="date" class="search-form__label">Дата</label>
+					<input id="date" class="search-form__field" value="2 февраля" type="text">
+					<div class="search-form__calendar-button"></div>
+				</div>
+				<div class="search-form__button-wrapper"><a class="search-form__button button" href="">Найти билеты</a></div>
+			</div>
+
 		</div>
 
-<!-- 		.search-form>(.search-form__field-wrapper>label.search-form__label+.search-form__field>input)*3+.search-form__button>span-->
-<!--  		<div class="search-form row">
- 			<div class="search-form__field-wrapper row__col row__col_mw_6">
- 				<label for="" class="search-form__label"></label>
- 				<div class="search-form__field"><input type="text"></div>
- 			</div>
- 			<div class="search-form__field-wrapper row__col row__col_mw_6">
- 				<label for="" class="search-form__label"></label>
- 				<div class="search-form__field"><input type="text"></div>
- 			</div>
- 			<div class="search-form__field-wrapper row__col row__col_mw_6">
- 				<label for="" class="search-form__label"></label>
- 				<div class="search-form__field"><input type="text"></div>
- 			</div>
- 			<div class="search-form__button row__col row__col_mw_6"><span>Найти</span></div>
- 		</div> -->
-
 	</header>
+
 	<script src="https://kit.fontawesome.com/52a3eb3482.js" crossorigin="anonymous"></script>
 	<script src="js/app.min.js"></script>
-	
 </body>
 </html>

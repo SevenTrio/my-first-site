@@ -7,6 +7,7 @@ const sass         = require('gulp-sass');
 const scss         = require('gulp-sass');
 const less         = require('gulp-less');
 const styl         = require('gulp-stylus');
+const smartgrid = require("smart-grid");
 const cleancss     = require('gulp-clean-css');
 const concat       = require('gulp-concat');
 const browserSync  = require('browser-sync').create();
@@ -37,6 +38,50 @@ function styles() {
 	.pipe(cleancss( {level: { 1: { specialComments: 0 } } }))
 	.pipe(dest('app/css'))
 	.pipe(browserSync.stream())
+}
+
+function grid (cb) {
+    smartgrid("app/sass/", {
+    outputStyle: 'sass', /* less || scss || sass || styl */
+    filename: "_smart-grid",
+    columns: 12, /* number of grid columns */
+    offset: '16px', /* gutter width px || % || rem */
+    mobileFirst: false, /* mobileFirst ? 'min-width' : 'max-width' */
+    container: {
+        maxWidth: '1200px', /* max-width оn very large screen */
+        fields: '20px' /* side fields */
+    },
+
+    breakPoints: {
+        xl: {
+            width: '1200px' /* -> @media (max-width: 1100px) */
+        },
+        lg: {
+            width: '984px'
+        },
+        md: {
+            width: '768px'
+            //fields: '15px' /* set fields only if you want to change container.fields */
+        },
+        sm: {
+            width: '480px'
+        },
+        xs: {
+            width: '320px'
+        }
+        /* 
+        We can create any quantity of break points.
+
+        some_name: {
+            width: 'Npx',
+            fields: 'N(px|%|rem)',
+            offset: 'N(px|%|rem)'
+        }
+        */
+    }
+	});
+
+	cb();
 }
 
 // Scripts & JS Libraries
@@ -94,6 +139,7 @@ function startwatch() {
 exports.browsersync = browsersync;
 exports.assets      = series(cleanimg, styles, scripts, images);
 exports.styles      = styles;
+exports.grid        = grid;
 exports.scripts     = scripts;
 exports.images      = images;
 exports.cleanimg    = cleanimg;
