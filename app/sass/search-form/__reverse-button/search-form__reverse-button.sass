@@ -1,20 +1,25 @@
 .search-form__reverse-button
-	transition: all 0.3s linear
+	transition: all 0.2s linear
 	transform: scaleX(-1)
 	position: absolute
 	right: 15px
 	top: 15px
+
+	+to($break_md)
+		top: 10px
+
 	&:before
 		content: '\f362'
-		font-family: "Font Awesome 5 Free", fontawesome
-		font-weight: 900
+		font-family: $fontawesome
+		font-weight: 400
 		font-size: 20px
 		color: $red
 		cursor: pointer
+
 		+to($break_md)
-			content: '\f309\f30c'
-
-
+			content: '\f883'
+			font-size: 24px
+			
 
 @import 'search-form__reverse-button_rotate.sass'
 @import 'search-form__reverse-button_scale.sass'

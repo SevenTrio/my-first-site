@@ -64,7 +64,8 @@ function grid (cb) {
             //fields: '15px' /* set fields only if you want to change container.fields */
         },
         sm: {
-            width: '480px'
+            width: '480px',
+            fields: '10px'
         },
         xs: {
             width: '320px'
