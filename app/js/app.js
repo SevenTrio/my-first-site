@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", function() {
 				dropdownContainer.classList.remove('dropdown__container_active');
 			} else {
 				dropdown.classList.add('dropdown_active');
-				dropdownContainer.classList.add('dropdown__container_active')
+				dropdownContainer.classList.add('dropdown__container_active');
 			}
 		}
-	})
+	});
 
 	// document.getElementsByClassName('language__link')[0].onclick = function(){
 	// 	var dropdown = document.getElementsByClassName('language__dropdown')[0];
@@ -54,16 +54,16 @@ document.addEventListener("DOMContentLoaded", function() {
 				}
 			}
 		}
-	}
+	};
 
-	var reverseButton = document.getElementsByClassName('search-form__reverse-button')[0]
+	var reverseButton = document.getElementsByClassName('search-form__reverse-button')[0];
 	reverseButton.onclick = function(){
 		if(reverseButton.classList.contains('search-form__reverse-button_scale')){
-			reverseButton.classList.remove('search-form__reverse-button_scale')
-			reverseButton.classList.add('search-form__reverse-button_rotate')
+			reverseButton.classList.remove('search-form__reverse-button_scale');
+			reverseButton.classList.add('search-form__reverse-button_rotate');
 		} else {
-			reverseButton.classList.add('search-form__reverse-button_scale')
-			reverseButton.classList.remove('search-form__reverse-button_rotate')
+			reverseButton.classList.add('search-form__reverse-button_scale');
+			reverseButton.classList.remove('search-form__reverse-button_rotate');
 		};
 
 		var inputFrom = document.getElementById('from');
@@ -71,6 +71,21 @@ document.addEventListener("DOMContentLoaded", function() {
 		var inputTo = document.getElementById('to');
 		inputFrom.value = inputTo.value;
 		inputTo.value = temp;
+	};
+
+	var calendarButton = document.getElementsByClassName('search-form__calendar-button')[0];
+	calendarButton.onclick = function(){
+		document.getElementById('date').focus();
 	}
 
 });
+
+
+;(function($, undefined){
+	$picker = $('#date');
+	$picker.datepicker({
+		minDate: new Date()
+	});
+	$picker.data('datepicker').selectDate(new Date());
+
+})(jQuery);

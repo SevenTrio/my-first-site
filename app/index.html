@@ -10,6 +10,7 @@
 	<!-- <meta property="og:image" content="imgages/dest/preview.jpg"> -->
 	<link rel="stylesheet" href="css/app.min.css">
 	<link rel="stylesheet" href="libs/sharps/dist/sharps.min.css">
+	<link href="libs/air-datepicker/dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -77,7 +78,7 @@
 				</div>
 				<div class="search-form__field-wrapper search-form__field-wrapper_type_date">
 					<label for="date" class="search-form__label">Дата</label>
-					<input id="date" class="search-form__field" value="2 февраля" type="text">
+					<input id="date" class="search-form__field" type="text" readonly>
 					<div class="search-form__calendar-button"></div>
 				</div>
 				<div class="search-form__button-wrapper"><a class="search-form__button button" href="">Найти билеты</a></div>
@@ -87,8 +88,8 @@
 
 	</header>
 
-	<iframe src="https://calendar.google.com/calendar/embed?src=dimakrikunov12%40gmail.com&ctz=Europe%2FMoscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/air-datepicker/dist/js/datepicker.min.js"></script>
 	<script src="js/app.min.js"></script>
 </body>
 </html>
