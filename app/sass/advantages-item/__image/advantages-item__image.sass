@@ -1,0 +1,33 @@
+.advantages-item__image
+	position: absolute
+	height: 80px
+	width: 80px
+	border-radius: 50%
+	background: linear-gradient(45deg, #4F132E, $red)
+	text-align: center
+	padding-top: 8px
+
+.advantages-item
+	&:nth-child(1)
+		.advantages-item__image:before
+			content: '\f207'
+			font-family: $fontawesome
+			font-weight: 300
+			font-size: 40px
+			color: #fff
+
+	&:nth-child(2)
+		.advantages-item__image:before
+			content: '\f3c5'
+			font-family: $fontawesome
+			font-weight: 300
+			font-size: 40px
+			color: #fff
+
+	&:nth-child(3)
+		.advantages-item__image:before
+			content: '\f555'
+			font-family: $fontawesome
+			font-weight: 300
+			font-size: 40px
+			color: #fff
