@@ -1,0 +1,20 @@
+.gallery__item
+	position: relative
+	+col()
+	+size(4)
+	+size-md(6)
+	+size-sm(12)
+	border-radius: 20px
+	margin-bottom: 16px
+	height: 248px
+	overflow: hidden
+	+lg(height, 180px)
+	+sm(height, 150px)
+
+	&:first-child
+		overflow: visible
+		+size-md(12)
+
+	&:nth-child(4)
+		+from($break_md+1px)
+			+shift-left(4)

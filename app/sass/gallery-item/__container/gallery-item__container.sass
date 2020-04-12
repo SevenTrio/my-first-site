@@ -1,0 +1,18 @@
+.gallery-item__container
+	display: inline-block
+	position:relative
+	border-radius: 20px
+	height: inherit
+	overflow: hidden
+	background-color: #000
+	opacity: 1
+
+	&:hover .gallery-item__image
+		opacity: 0.75
+		transform: scale(1.1)
+
+.gallery-item__container_first
+	+from($break_md+1px)
+		position: absolute
+		height: 512px
+		+lg(height, 376px)
