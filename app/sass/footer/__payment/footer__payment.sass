@@ -1,3 +1,14 @@
 .footer__payment
 	+col()
-	+size(1)
+	+size(2)
+	+size-md(5)
+	+size-sm(10)
+
+	+to($break_md)
+	 	+shift-right(1)
+	 	margin-top: 10px
+
+	+to($break_sm)
+		+shift-left(1)
+		+shift-right(1)
+		margin-top: 40px

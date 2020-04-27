@@ -133,16 +133,16 @@ function deploy() {
 function startwatch() {
 	watch('app/' + preprocessor + '/**/*', parallel('styles'));
 	watch(['app/**/*.js', '!app/js/*.min.js'], parallel('scripts'));
-	watch(['app/**/*.{' + imageswatch + '}'], parallel('images'));
+	//watch(['app/**/*.{' + imageswatch + '}'], parallel('images'));
 	watch(['app/**/*.{' + fileswatch + '}']).on('change', browserSync.reload);
 }
 
 exports.browsersync = browsersync;
-exports.assets      = series(cleanimg, styles, scripts, images);
+exports.assets      = series(cleanimg, styles, scripts); //series(cleanimg, styles, scripts, images);
 exports.styles      = styles;
 exports.grid        = grid;
 exports.scripts     = scripts;
 exports.images      = images;
 exports.cleanimg    = cleanimg;
 exports.deploy      = deploy;
-exports.default     = parallel(images, styles, scripts, browsersync, startwatch);
+exports.default     = parallel(styles, scripts, browsersync, startwatch); //parallel(images, styles, scripts, browsersync, startwatch);
