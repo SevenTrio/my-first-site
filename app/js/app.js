@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-	dropdownsNames = ['language', 'contacts'];
+	var dropdownsNames = ['language', 'contacts'];
 
 	dropdownsNames.forEach(dropdownName => {
 		var dropdown = document.getElementsByClassName('js-'+dropdownName+'__dropdown')[0];
@@ -15,6 +15,53 @@ document.addEventListener("DOMContentLoaded", function() {
 			}
 		}
 	});
+
+	var phoneDropdownsNames = ['language', 'contacts'];
+
+	phoneDropdownsNames.forEach(phoneDropdownName => {
+		var phoneDropdown = document.getElementsByClassName('js-'+phoneDropdownName+'__phone-dropdown')[0];
+		phoneDropdown.onclick = function(){
+			var phoneDropdownContainer = phoneDropdown.nextElementSibling;
+			if (phoneDropdown.classList.contains('phone-dropdown_active')) {
+				phoneDropdown.classList.remove('phone-dropdown_active');
+				phoneDropdownContainer.classList.remove('phone-dropdown__container_active');
+			} else {
+				phoneDropdown.classList.add('phone-dropdown_active');
+				phoneDropdownContainer.classList.add('phone-dropdown__container_active');
+			}
+		}
+	});
+
+	// var hamburgerMenuButton = document.getElementsByClassName('hamburger-menu__button')[0];
+	// var hamburgerMenuContainer = document.getElementsByClassName('hamburger-menu__container')[0];
+	// hamburgerMenuButton.onclick = function(){
+	// 	if (hamburgerMenuButton.classList.contains('hamburger-menu__button_active')) {
+	// 		console.log('снимаю класс');
+	// 		hamburgerMenuButton.classList.remove('hamburger-menu__button_active');
+	// 		hamburgerMenuContainer.classList.remove('hamburger-menu__container_active');
+	// 	} else {
+	// 		console.log('добавляю класс');
+	// 		hamburgerMenuButton.classList.add('hamburger-menu__button_active');
+	// 		hamburgerMenuContainer.classList.add('hamburger-menu__container_active');
+	// 	}
+	// }
+
+	var hamburgerMenuContainer = document.getElementsByClassName('hamburger-menu__container')[0];
+	
+	var hamburgerMenuButton = document.getElementsByClassName('hamburger-menu__button')[0];
+	hamburgerMenuButton.onclick = function(){
+		document.body.classList.add('body_overflow_hidden');
+		hamburgerMenuContainer.classList.add('hamburger-menu__container_active');
+	};
+
+	var hamburgerMenuExitButton = document.getElementsByClassName('hamburger-menu__button_exit')[0];
+	hamburgerMenuExitButton.onclick = function(){
+		document.body.classList.remove('body_overflow_hidden');
+		hamburgerMenuContainer.classList.remove('hamburger-menu__container_active');
+	};
+
+
+
 
 	// document.getElementsByClassName('language__link')[0].onclick = function(){
 	// 	var dropdown = document.getElementsByClassName('language__dropdown')[0];

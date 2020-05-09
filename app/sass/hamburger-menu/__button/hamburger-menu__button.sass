@@ -1,0 +1,30 @@
+.hamburger-menu__button
+	position: absolute
+	right: 10px
+	top: 5px
+	
+	&:before
+		content: '\f0c9'
+		font-family: $fontawesome
+		font-weight: 300
+		font-size: 30px
+		color: $light-gray
+	
+	+from($break_sm+1px)
+		right: 20px
+		top: 7px
+
+	+from($break_md+1px)
+		display: none
+
+.hamburger-menu__button_exit
+	position: absolute
+	right: 10px
+	top: 5px
+	
+	&:before
+		content: '\f0c9'
+		font-family: $fontawesome
+		font-weight: 300
+		font-size: 30px
+		color: $light-gray
