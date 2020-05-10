@@ -48,14 +48,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	var hamburgerMenuContainer = document.getElementsByClassName('hamburger-menu__container')[0];
 	
-	var hamburgerMenuButton = document.getElementsByClassName('hamburger-menu__button')[0];
-	hamburgerMenuButton.onclick = function(){
+	var hamburgerMenuOpenButton = document.getElementsByClassName('hamburger-menu__button_open')[0];
+	hamburgerMenuOpenButton.onclick = function(){
 		document.body.classList.add('body_overflow_hidden');
 		hamburgerMenuContainer.classList.add('hamburger-menu__container_active');
 	};
 
-	var hamburgerMenuExitButton = document.getElementsByClassName('hamburger-menu__button_exit')[0];
-	hamburgerMenuExitButton.onclick = function(){
+	var hamburgerMenuCloseButton = document.getElementsByClassName('hamburger-menu__button_close')[0];
+	hamburgerMenuCloseButton.onclick = function(){
 		document.body.classList.remove('body_overflow_hidden');
 		hamburgerMenuContainer.classList.remove('hamburger-menu__container_active');
 	};
