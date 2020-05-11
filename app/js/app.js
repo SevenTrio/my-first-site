@@ -50,13 +50,13 @@ document.addEventListener("DOMContentLoaded", function() {
 	
 	var hamburgerMenuOpenButton = document.getElementsByClassName('hamburger-menu__button_open')[0];
 	hamburgerMenuOpenButton.onclick = function(){
-		document.body.classList.add('body_overflow_hidden');
+		document.body.classList.add('page_overflow_hidden');
 		hamburgerMenuContainer.classList.add('hamburger-menu__container_active');
 	};
 
 	var hamburgerMenuCloseButton = document.getElementsByClassName('hamburger-menu__button_close')[0];
 	hamburgerMenuCloseButton.onclick = function(){
-		document.body.classList.remove('body_overflow_hidden');
+		document.body.classList.remove('page_overflow_hidden');
 		hamburgerMenuContainer.classList.remove('hamburger-menu__container_active');
 	};
 
