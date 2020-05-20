@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/app.min.css">
 	<link rel="stylesheet" href="libs/sharps/dist/sharps.min.css">
 </head>
-<body class="page">
+<body class="page page-search">
 	<div class="page__wrapper">
 	<div class="page__content">
 		<header class="header">
@@ -112,6 +112,35 @@
 
 		</header>
 
+		<div class="page-search__search-form search-form">
+			<form class="search-form__form" action="search.html" method="get">
+				<div class="search-form__field-wrapper search-form__field-wrapper_type_from">
+					<label class="search-form__label" for="from">Откуда</label>
+					<input class="search-form__field" id="from" name="from" type="text" value="Одесса">
+					<div class="search-form__reverse-button search-form__reverse-button_rotate"></div>
+				</div>
+				<div class="search-form__field-wrapper search-form__field-wrapper_type_to">
+					<label class="search-form__label" for="to">Куда</label>
+					<input class="search-form__field" id="to" type="text" name="to" value="Киев">
+				</div>
+				<div class="search-form__field-wrapper search-form__field-wrapper_type_date">
+					<label class="search-form__label" for="date">Дата</label>
+					<input class="search-form__field" id="date" type="text" name="date"  readonly>
+					<div class="search-form__calendar-button"></div>
+				</div>
+				<div class="search-form__button-wrapper"><input type=submit value="Найти билеты" class="search-form__button button"></div>
+			</form>
+		</div>
+
+		<div class="search-result">
+					<div class="search-result__empty result-empty">
+						<div class="result-empty__icon">test</div>
+						<div class="result-empty__text">
+							<div class="result-empty__title">Билеты не найдены</div>
+							<div class="result-empty__subtitle">Мы не нашли билеты на выбранную дату. Попробуйте поискать билеты на более позднюю или более раннюю дату.</div>
+						</div>
+					</div>
+		</div>
 
 		</div>
 
