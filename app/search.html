@@ -10,6 +10,7 @@
 	<!-- <meta property="og:image" content="imgages/dest/preview.jpg"> -->
 	<link rel="stylesheet" href="css/app.min.css">
 	<link rel="stylesheet" href="libs/sharps/dist/sharps.min.css">
+	<link href="libs/air-datepicker/dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
 </head>
 <body class="page page-search">
 	<div class="page__wrapper">
@@ -19,7 +20,7 @@
 			<div class="header__upper header-upper">
 				<div class="header-upper__wrapper">
 					<div class="header-upper__logo logo">
-						<a href="" class="logo__link">
+						<a href="/" class="logo__link">
 							<img class="logo__img" src="images/dest/logo-1.png" alt="Tiket">
 						</a>
 					</div>
@@ -133,13 +134,13 @@
 		</div>
 
 		<div class="search-result">
-					<div class="search-result__empty result-empty">
-						<div class="result-empty__icon">test</div>
-						<div class="result-empty__text">
-							<div class="result-empty__title">Билеты не найдены</div>
-							<div class="result-empty__subtitle">Мы не нашли билеты на выбранную дату. Попробуйте поискать билеты на более позднюю или более раннюю дату.</div>
-						</div>
-					</div>
+			<div class="search-result__empty result-empty">
+				<div class="result-empty__icon"></div>
+				<div class="result-empty__text">
+					<div class="result-empty__title">Билеты не найдены</div>
+					<div class="result-empty__subtitle">Мы не нашли билеты на выбранную дату. Попробуйте поискать билеты на более позднюю или более раннюю дату.</div>
+				</div>
+			</div>
 		</div>
 
 		</div>
@@ -190,6 +191,9 @@
 			</div>
 		</footer>
 	</div>
-
+	
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/air-datepicker/dist/js/datepicker.min.js"></script>
+	<script src="js/app.min.js"></script>
 </body>
 </html>
