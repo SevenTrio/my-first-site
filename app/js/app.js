@@ -133,6 +133,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	$picker.datepicker({
 		minDate: new Date()
 	});
-	$picker.data('datepicker').selectDate(new Date());
+	// $picker.data('datepicker').selectDate(new Date());
 
 })(jQuery);
