@@ -47,11 +47,21 @@ msgstr "Contacts"
 msgid "Язык"
 msgstr "Language"
 
-#: search.php:182
+msgid "Откуда"
+msgstr "From"
+
+msgid "Куда"
+msgstr "To"
+
+msgid "Дата"
+msgstr "Date"
+
+msgid "Найти билеты"
+msgstr "Search"
+
 msgid "Билеты не найдены"
 msgstr "No tickets found"
 
-#: search.php:183
 msgid "Мы не нашли билеты на выбранную дату. Попробуйте поискать билеты на более позднюю или более раннюю дату."
 msgstr "We did not find tickets for the selected date. Try looking for tickets for a later or earlier date."
 

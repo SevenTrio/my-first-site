@@ -75,7 +75,7 @@ msgstr "Date"
 
 #: index.php:179
 msgid "Найти билеты"
-msgstr "Find tickets"
+msgstr "Search"
 
 #: index.php:192
 msgid "Легальные перевозчики"
