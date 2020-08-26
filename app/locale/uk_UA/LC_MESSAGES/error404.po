@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-26 14:35+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Ukrainian <LL@li.org>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: error404.php:39
+msgid "Билеты на автобус - купить онлайн - Ticket.xyz"
+msgstr "Квитки на автобус - купити онлайн - Ticket.xyz"
+
+#: error404.php:40
+msgid "Купить билеты на автобус онлайн"
+msgstr "Купити квитки на автобус онлайн"
+
+#: error404.php:45
+msgid "Купить билеты на автобус"
+msgstr "Купити квитки на автобус"
+
+#: error404.php:46
+msgid "Купить билеты на автобус по выгодной цене на любое направление онлайн"
+msgstr "Купити квитки на автобус за вигідною ціною на будь-який напрямок онлайн"
+
+#: error404.php:73
+msgid "Наши контакты"
+msgstr "Наші контакти"
+
+#: error404.php:93
+msgid "Войти"
+msgstr "Увійти"
+
+#: error404.php:95 error404.php:123
+msgid "Регистрация"
+msgstr "Реєстрація"
+
+#: error404.php:119
+msgid "Вход"
+msgstr "Вхід"
+
+#: error404.php:127 error404.php:190
+msgid "Контакты"
+msgstr "Контакти"
+
+#: error404.php:139
+msgid "Язык"
+msgstr "Мова"
+
+#: error404.php:161
+msgid "cтраница</br>не найдена"
+msgstr "сторінка</br>не знайдено"
+
+#: error404.php:184
+msgid "Информация"
+msgstr "Iнформація"
+
+#: error404.php:185
+msgid "О нас"
+msgstr "Про нас"
+
+#: error404.php:186
+msgid "Договор оферты"
+msgstr "Договір оферти"
+
+#: error404.php:187
+msgid "Разработчик"
+msgstr "Розробник"

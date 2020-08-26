@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-26 14:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English <LL@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Билеты на автобус - купить онлайн - Ticket.xyz"
+msgstr "Bus tickets - buy online - Ticket.xyz"
+
+msgid "Купить билеты на автобус онлайн"
+msgstr "Buy bus tickets online"
+
+msgid "Купить билеты на автобус"
+msgstr "Buy bus tickets"
+
+msgid "Купить билеты на автобус по выгодной цене на любое направление онлайн"
+msgstr "Buy bus tickets at a bargain price to any destination online"
+
+msgid "Наши контакты"
+msgstr "Our contacts"
+
+msgid "Войти"
+msgstr "Sign in"
+
+msgid "Регистрация"
+msgstr "Sign out"
+
+msgid "Вход"
+msgstr "Login"
+
+msgid "Контакты"
+msgstr "Contacts"
+
+msgid "Язык"
+msgstr "Language"
+
+#: search.php:182
+msgid "Билеты не найдены"
+msgstr "No tickets found"
+
+#: search.php:183
+msgid "Мы не нашли билеты на выбранную дату. Попробуйте поискать билеты на более позднюю или более раннюю дату."
+msgstr "We did not find tickets for the selected date. Try looking for tickets for a later or earlier date."
+
+msgid "Информация"
+msgstr "Information"
+
+msgid "О нас"
+msgstr "About Us"
+
+msgid "Договор оферты"
+msgstr "Contract offer"
+
+msgid "О разработчике"
+msgstr "Developer"

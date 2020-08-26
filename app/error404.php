@@ -184,7 +184,7 @@
 						<div class="info__item info__item_heading"><?php echo _('Информация'); ?></div>
 						<div class="info__item"><a class="info__link" href="<?php echo("$prefix/about_company") ?>"><?php echo _('О нас'); ?></a></div>
 						<div class="info__item"><a class="info__link" href="<?php echo("$prefix/contract_offer") ?>"><?php echo _('Договор оферты'); ?></a></div>
-						<div class="info__item"><a class="info__link" href="<?php echo("$prefix/about_developer") ?>"><?php echo _('О разработчике'); ?></a></div>
+						<div class="info__item"><a class="info__link" href="https://github.com/SevenTrio"><?php echo _('Разработчик'); ?></a></div>
 					</div>
 					<div class="footer__contacts footer-contacts">
 						<div class="footer-contacts__item footer-contacts__item_heading"><?php echo _('Контакты'); ?></div>

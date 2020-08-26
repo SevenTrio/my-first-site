@@ -11,156 +11,156 @@ msgstr ""
 "POT-Creation-Date: 2020-08-26 14:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: English <LL@li.org>\n"
-"Language: en_US\n"
+"Language-Team: Ukrainian <LL@li.org>\n"
+"Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: index.php:39
 msgid "Билеты на автобус - купить онлайн - Ticket.xyz"
-msgstr "Bus tickets - buy online - Ticket.xyz"
+msgstr "Квитки на автобус - купити онлайн - Ticket.xyz"
 
 #: index.php:40
 msgid "Купить билеты на автобус онлайн"
-msgstr "Buy bus tickets online"
+msgstr "Купити квитки на автобус онлайн"
 
 #: index.php:45
 msgid "Купить билеты на автобус"
-msgstr "Buy bus tickets"
+msgstr "Купити квитки на автобус"
 
 #: index.php:46
 msgid "Купить билеты на автобус по выгодной цене на любое направление онлайн"
-msgstr "Buy bus tickets at a bargain price to any destination online"
+msgstr "Купити квитки на автобус за вигідною ціною на будь-який напрямок онлайн"
 
 #: index.php:73
 msgid "Наши контакты"
-msgstr "Our contacts"
+msgstr "Наші контакти"
 
 #: index.php:93
 msgid "Войти"
-msgstr "Sign in"
+msgstr "Увійти"
 
 #: index.php:95 index.php:123
 msgid "Регистрация"
-msgstr "Sign out"
+msgstr "Реєстрація"
 
 #: index.php:119
 msgid "Вход"
-msgstr "Login"
+msgstr "Вхід"
 
 #: index.php:127 index.php:300
 msgid "Контакты"
-msgstr "Contacts"
+msgstr "Контакти"
 
 #: index.php:139
 msgid "Язык"
-msgstr "Language"
+msgstr "Мова"
 
 #: index.php:159
 msgid "Легко запомнить. Просто купить."
-msgstr "Easy to remember. Just to buy."
+msgstr "Легко запам'ятати. Просто купити."
 
 #: index.php:166
 msgid "Откуда"
-msgstr "From"
+msgstr "Звідки"
 
 #: index.php:171
 msgid "Куда"
-msgstr "To"
+msgstr "Куди"
 
 #: index.php:175
 msgid "Дата"
-msgstr "Date"
+msgstr "Дата"
 
 #: index.php:179
 msgid "Найти билеты"
-msgstr "Find tickets"
+msgstr "Знайти квитки"
 
 #: index.php:192
 msgid "Легальные перевозчики"
-msgstr "Legal carriers"
+msgstr "Легальні перевізники"
 
 #: index.php:193
 msgid "Продаем билеты только на регулярные рейсы легальных перевозчиков"
-msgstr "We sell tickets only for regular flights of legal carriers"
+msgstr "Продаємо квитки тільки на регулярні рейси легальних перевізників"
 
 #: index.php:199
 msgid "Отправление с автостанций"
-msgstr "Departure from bus stations"
+msgstr "Відправлення з автостанцій"
 
 #: index.php:200
 msgid "Вы гарантированно совершите свою поездку с посадкой на автостанции"
-msgstr "You are guaranteed to make your trip with a bus station landing"
+msgstr "Ви гарантовано зробите свою поїздку з посадкою на автостанції"
 
 #: index.php:206
 msgid "Цена без скрытых платежей"
-msgstr "Price without hidden fees"
+msgstr "Ціна без прихованих платежів"
 
 #: index.php:207
 msgid "Налоги, сборы автостанций, комиссии - все включено"
-msgstr "Taxes, station fees, commissions - all inclusive"
+msgstr "Податки, збори автостанцій, комісії - все включено"
 
 #: index.php:217
 msgid "Популярные маршруты"
-msgstr "Popular routes"
+msgstr "Популярні маршрути"
 
 #: index.php:226 index.php:227
 msgid "Днепропетровск - Киев"
-msgstr "Dnepropetrovsk - Kiev"
+msgstr "Дніпропетровськ - Київ"
 
 #: index.php:233 index.php:234
 msgid "Николаев - Одесса"
-msgstr "Nikolaev - Odessa"
+msgstr "Миколаїв - Одеса"
 
 #: index.php:240 index.php:241
 msgid "Тернополь - Хмельницкий"
-msgstr "Ternopil - Khmelnitsky"
+msgstr "Тернопіль - Хмельницький"
 
 #: index.php:247 index.php:248
 msgid "Житомир - Львов"
-msgstr "Zhytomyr - Lviv"
+msgstr "Житомир - Львів"
 
 #: index.php:254 index.php:255
 msgid "Полтава - Харьков"
-msgstr "Poltava - Kharkiv"
+msgstr "Полтава - Харків"
 
 #: index.php:266
 msgid "Ticket.xyz — национальный билетный оператор, продающий билеты на автобусные маршруты абсолютно любых направлений"
-msgstr "Ticket.xyz is a national ticket operator that sells tickets for bus routes of absolutely any destination"
+msgstr "Ticket.xyz - національний квитковий оператор, який продає квитки на автобусні маршрути абсолютно будь-яких напрямків"
 
 #: index.php:267
 msgid "Наша сила в системности и научном подходе: все бизнес-процессы мы прорабатываем достаточно осмысленно и глубоко. Ticket.xyz — большая компания, которая драйвит и развивает рынок. Мы первыми в своей отрасли внедрили технологию электронных билетов по всей стране, выстроили инновационную бизнес модель и создали самую большую дистрибьюторскую сеть. Ежедневно мы усовершенствуем наш сервис, делая его лучше для клиентов, тем самым добиваясь вашего доверия."
-msgstr "Our strength lies in consistency and a scientific approach: we work out all business processes quite meaningfully and deeply. Ticket.xyz is a large company that drives and develops the market. We were the first in our industry to introduce e-ticketing technology across the country, built an innovative business model and built the largest distribution network. Every day we improve our service, making it better for our clients, thereby gaining your trust."
+msgstr "Наша сила в системності і науковому підході: все бізнес-процеси ми опрацьовуємо досить осмислено і глибоко. Ticket.xyz - велика компанія, яка драйвит і розвиває ринок. Ми першими в своїй галузі впровадили технологію електронних квитків по всій країні, збудували інноваційну бізнес модель і створили найбільшу дистриб'юторську мережу. Щодня ми вдосконалюємо наш сервіс, роблячи його краще для клієнтів, тим самим домагаючись вашої довіри."
 
 #: index.php:268
 msgid "Ваше доверие это та награда которую мы ценим больше всего!"
-msgstr "Your trust is the reward we value most!"
+msgstr "Ваша довіра це та нагорода яку ми цінуємо найбільше!"
 
 #: index.php:269
 msgid "В основе работы Ticket.xyz лежит философия ответственного лидерства. Если мы беремся за что-то, то делаем это серьезно, по настоящему, с большим запасом прочности. Ответственное лидерство - это когда твои действия влияют и значительно улучшают работу всей отрасли. Мы всегда думаем о рынке в целом и шаг за шагом фундаментально меняем его ландшафт в лучшую сторону."
-msgstr "At the heart of Ticket.xyz is the philosophy of responsible leadership. If we take on something, we do it seriously, for real, with a large margin of safety. Responsible leadership is when your actions impact and significantly improve the performance of the entire industry. We always think about the market as a whole and, step by step, fundamentally change its landscape for the better."
+msgstr "В основі роботи Ticket.xyz лежить філософія відповідального лідерства. Якщо ми беремося за щось, то робимо це серйозно, по справжньому, з великим запасом міцності. Відповідальне лідерство - це коли твої дії впливають і значно покращують роботу всієї галузі. Ми завжди думаємо про ринок в цілому і крок за кроком фундаментально міняємо його ландшафт в кращу сторону."
 
 #: index.php:270
 msgid "Мы благодарны, что с 2010 года вы покупаете официальные билеты на сайте Ticket.xyz и в наших касах."
-msgstr "We are grateful that since 2010 you have been buying official tickets on the Ticket.xyz website and at our ticket offices."
+msgstr "Ми вдячні, що з 2010 року ви купуєте офіційні квитки на сайті Ticket.xyz і в наших касах."
 
 #: index.php:271
 msgid "Вся наша деятельность направлена на ваш комфорт и безопасность."
-msgstr "All our activities are aimed at your comfort and safety."
+msgstr "Вся наша діяльність спрямована на ваш комфорт і безпеку."
 
 #: index.php:294
 msgid "Информация"
-msgstr "Information"
+msgstr "Iнформація"
 
 #: index.php:295
 msgid "О нас"
-msgstr "About Us"
+msgstr "Про нас"
 
 #: index.php:296
 msgid "Договор оферты"
-msgstr "Contract offer"
+msgstr "Договір оферти"
 
 #: index.php:297
 msgid "Разработчик"
-msgstr "Developer"
+msgstr "Розробник"
