@@ -1,6 +1,6 @@
 let preprocessor = 'sass'; // Preprocessor (sass, scss, less, styl)
 let fileswatch   = 'html,htm,txt,json,md,woff2'; // List of files extensions for watching & hard reload (comma separated)
-let imageswatch  = 'jpg,jpeg,png,webp,svg'; // List of images extensions for watching & compression (comma separated)
+// let imageswatch  = 'jpg,jpeg,png,webp,svg'; // List of images extensions for watching & compression (comma separated)
 
 const { src, dest, parallel, series, watch } = require('gulp');
 const sass         = require('gulp-sass');
@@ -133,7 +133,7 @@ function deploy() {
 function startwatch() {
 	watch('app/' + preprocessor + '/**/*', parallel('styles'));
 	watch(['app/**/*.js', '!app/js/*.min.js'], parallel('scripts'));
-	//watch(['app/**/*.{' + imageswatch + '}'], parallel('images'));
+	// watch(['app/**/*.{' + imageswatch + '}'], parallel('images'));
 	watch(['app/**/*.{' + fileswatch + '}']).on('change', browserSync.reload);
 }
 
@@ -145,4 +145,5 @@ exports.scripts     = scripts;
 exports.images      = images;
 exports.cleanimg    = cleanimg;
 exports.deploy      = deploy;
-exports.default     = parallel(styles, scripts, browsersync, startwatch); //parallel(images, styles, scripts, browsersync, startwatch);
+exports.default     = parallel(styles, scripts, browsersync, startwatch);
+// exports.default     = parallel(images, styles, scripts, browsersync, startwatch);
